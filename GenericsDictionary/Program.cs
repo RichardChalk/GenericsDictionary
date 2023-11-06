@@ -30,6 +30,7 @@
             ages.Remove("John");
 
             // Iterate over the dictionary
+            // Vad tror ni att kvp står för?
             foreach (KeyValuePair<string, int> kvp in ages)
             {
                 Console.WriteLine(kvp.Key + ": " + kvp.Value);
